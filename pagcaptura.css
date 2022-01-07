@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+header{
+    background-size: cover;
+    background: #48C5CE;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+main{
+    background-image: url("/Users/andrepaiva/Downloads/images/people.jpg");
+    background-size: cover;
+    height: 700px;
+    padding: 50px;
+
+}
+
+#form{
+    background-color: rgba(255,255,255, 0.5);
+    color: black;
+    padding: 30px;
+    width: 300px;
+    height: 600px;
+    float: right;
+    font-size: 15px;
+}
+#nome{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px;
+}
+
+#email{
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px;
+}
+
+#estados{
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px)center;
+}
+
+#submit{
+    margin-top: 10px;
+    padding: 6px;
+    background-color: #48C5CE;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#caraqualquer{
+    width: 200px;
+}
+
+#texto{
+    display: inline-block;
+    padding: 60px;
+    font-size: 26 px;
+    color: white;
+    max-width: 40%;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    text-align: left;
+}
